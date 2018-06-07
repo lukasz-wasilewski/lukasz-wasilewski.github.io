@@ -1,0 +1,173 @@
+{
+  "summary": {
+    "name": {
+      "first": "Łukasz",
+      "last": "Wasilewski"
+    },
+    "position": "Javascript Developer",
+    "about":
+      "Full-stack javascript developer. Interested in product as whole solution, from frontend (Angular - 4 years of experience, React - 2 years of experience) and backend (NodeJS  - 4 years of experience) of web application to desktop app (Electron) and mobile native apps (React - native). Focused in creating amazing user experience (inspired by Don\u0027t Make Me Think by Steve Krug)."
+  },
+  "contact": {
+    "email": "wasilewskiluke+cv@gmail.com",
+    "phone": "+48 512265596",
+    "city": "Wrocław",
+    "website": "lukasz-wasilewski.github.io",
+    "github": "lukasz-wasilewski"
+  },
+  "skills": [
+    {
+      "name": "Advance Javascript",
+      "skills": ["ES5", "ES6", "ES7"]
+    },
+    {
+      "name": "Frontend Frameworks",
+      "skills": ["AngularJS 1-1.6", "React", "Redux"]
+    },
+    {
+      "name": "Backend Javascript",
+      "skills": ["NodeJS", "Express", "Electron"]
+    },
+    { "name": "Javascript Tools", "skills": ["PM2", "Webpack", "Gulp/Grunt"] },
+    {
+      "name": "Devops Tools",
+      "skills": ["Docker", "Nginx", "Teamcity", "AWS", "Ansible"]
+    },
+    {
+      "name": "Database",
+      "skills": ["MongoDB", "CouchDB", "Postgresql", "MS SQL"]
+    },
+    { "name": "Version Control", "skills": ["GIT"] }
+  ],
+  "self_experience": [
+    {
+      "company": "Łukasz Wasilewski IT",
+      "position": "Javascript Developer",
+      "timeperiod": "03.2016 - Present",
+      "projects": [
+        {
+          "role": "Fullstack Developer, Architect, Devops",
+          "description":
+            "Application for managing doctor office with appointments calendar, access to clients historical visits, invoices.",
+          "skills": [
+            "AngularJs",
+            "Redux",
+            "NodeJs",
+            "Electron",
+            "MongoDB",
+            "Docker"
+          ]
+        },
+        {
+          "role": "Fullstack Developer, Architect, Devops",
+          "description":
+            "Application for clients of doctor office with integration to application 1, possibility scheduling of appointments, history of previously visits.",
+          "skills": [
+            "React",
+            "Redux",
+            "Redux-saga",
+            "NodeJs",
+            "MongoDB",
+            "Docker"
+          ]
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "SII Poland",
+      "position": "Frontend Developer",
+      "timeperiod": "07.2016 - Present",
+      "projects": [
+        {
+          "role": "Frontend Developer",
+          "description": "Application for managing BTS.",
+          "skills": ["AngularJs", "React"]
+        },
+        {
+          "role": "Fullstack Developer",
+          "description": "Application for creating newsletters.",
+          "skills": ["React", "Redux"]
+        },
+        {
+          "role": "Frontend Developer",
+          "description": "Application for presenting banking risk data.",
+          "skills": ["AngularJs"]
+        }
+      ]
+    },
+    {
+      "company": "Intel Technology Poland",
+      "position": "Software Developer",
+      "timeperiod": "08.2014 - 07.2016",
+      "projects": [
+        {
+          "role": "Fullstack Developer",
+          "description": "Cloudera like project.",
+          "skills": [
+            "AngularJs",
+            "NodeJs",
+            "Python",
+            "Java",
+            "GoLang",
+            "MongoDB",
+            "Docker"
+          ]
+        },
+        {
+          "role": "Fullstack Developer",
+          "description":
+            "Personalise ID - Open Street maps editor for displaying electrical grids.",
+          "skills": ["Vanilla Javascript"]
+        },
+        {
+          "role": "Fullstack Developer, Devops",
+          "description": "Application for scaling desktop apps.",
+          "skills": [
+            "AngularJs",
+            "Python",
+            "Ansible",
+            "Windows Services",
+            "Postgresql"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Intel Technology Poland",
+      "position": "Software Developer Intern",
+      "timeperiod": "08.2012 - 08.2014",
+      "projects": [
+        {
+          "role": "Fullstack Developer, Architect",
+          "description":
+            "Application for managing expenses for business trips and training courses, with manager approval path, reports for accountants.",
+          "skills": ["KnockoutJs", "ASP.NET", "WCF", "MS SQL"]
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Engineering",
+      "timeperiod": "02.2014 - 10.2016",
+      "description":
+        "Major in Computer Science, Gdansk University of Technology, Faculty of Electronics, Telecommunications and Informatics"
+    },
+    {
+      "degree": "Bachelor of Engineering",
+      "timeperiod": "10.2010 - 02.2014",
+      "description":
+        "Major in Computer Science, Gdansk University of Technology, Faculty of Electronics, Telecommunications and Informatics"
+    }
+  ],
+  "hobbies": [
+    "movies(comedy, sci-fi, fantasy, action),  books(fantasy)",
+    "dance(salsa, bachata, kizomba)",
+    "sports(snowboarding, skiing, sailing, tennis, climbing, kitesurfing)",
+    "IT conferences like InfoShare, NetVision"
+  ],
+  "adnotation":
+    "I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the Personal Data Protection Act as of 29 August 1997, consolidated text: Journal of Laws 2015, item 2135 as amended."
+}

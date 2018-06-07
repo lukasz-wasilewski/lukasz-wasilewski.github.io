@@ -1,0 +1,32 @@
+.pdf-btn {
+  position: fixed;
+  bottom: 25px;
+  right: 90px; }
+  .pdf-btn:before {
+    content: url("../../img/arrow.svg");
+    position: relative;
+    left: -40px; }
+
+.page {
+  margin-top: 20px;
+  background: white;
+  width: 21cm;
+  display: block;
+  page-break-after: auto;
+  overflow: hidden; }
+
+.page-inner {
+  height: 100%;
+  width: 100%; }
+
+.page-wrapper {
+  overflow-x: hidden;
+  background: #CCCCCC;
+  margin: 0;
+  padding: 0;
+  -webkit-print-color-adjust: exact;
+  box-sizing: border-box; }
+
+@media (max-width: 1080px) {
+  .pdf-btn {
+    display: none; } }

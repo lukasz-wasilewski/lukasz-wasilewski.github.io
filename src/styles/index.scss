@@ -1,0 +1,53 @@
+@import "../../node_modules/@fortawesome/fontawesome-free-webfonts/css/fontawesome.css";
+@import "../../node_modules/@fortawesome/fontawesome-free-webfonts/css/fa-solid.css";
+@import "../../node_modules/@fortawesome/fontawesome-free-webfonts/css/fa-brands.css";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@mixin translate($x, $y) {
+  -webkit-transform: translate($x, $y);
+  -webkit-transform: translate3d($x, $y, 0);
+  -ms-transform: translate($x, $y);
+  -ms-transform: translate3d($x, $y, 0);
+  transform: translate($x, $y);
+  transform: translate3d($x, $y, 0);
+}
+
+.scrollTop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 44px;
+  height: 44px;
+  text-decoration: none;
+  padding: 0;
+  color: white;
+  background: red;
+  border: none;
+  border-radius: 100%;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  @include translate(0, 80px);
+  transition: transform 0.2s ease-in;
+  opacity: 0.7;
+
+  &:hover {
+    color: white;
+    opacity: 1;
+  }
+
+  &.show-button {
+    @include translate(0, 0);
+  }
+}

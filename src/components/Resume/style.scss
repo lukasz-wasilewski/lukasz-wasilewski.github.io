@@ -1,0 +1,21 @@
+.resume {
+  padding: 25px;
+  position: relative;
+  height: calc(3*29.68cm);
+}
+.resume-header {
+  display: flex;
+  #name {
+    margin: 0px;
+  }
+  #position {
+    margin: 0px;
+    color: grey;
+  }
+}
+
+.adnotation {
+  position: absolute;
+  bottom: 10px;
+  font-size: 12px;
+}

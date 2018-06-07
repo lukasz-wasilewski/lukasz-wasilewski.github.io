@@ -1,0 +1,8 @@
+.company-projects-list {
+  list-style: none; }
+  .company-projects-list .company-project {
+    margin: 15px;
+    padding: 5px;
+    border-radius: 2px;
+    border-left: 3px black solid;
+    width: 100%; }

@@ -1,0 +1,48 @@
+.timeline {
+  position: relative;
+  &:before {
+    position: absolute;
+    top: 0;
+    left: 160px;
+    content: " ";
+    display: block;
+    width: 2px;
+    height: 100%;
+    background: black;
+    background: linear-gradient(
+      to bottom,
+      rgba(80, 80, 80, 0) 0%,
+      rgb(80, 80, 80) 8%,
+      rgb(80, 80, 80) 92%,
+      rgba(80, 80, 80, 0) 100%
+    );
+  }
+  .point {
+    display: flex;
+    .details {
+      width: 100%;
+      position: relative;
+      padding-left: 30px;
+      padding-right: 10px;
+    }
+    .timeperiod {
+      position: relative;
+      min-width: 150px;
+      &:before {
+        transform: rotate(45deg);
+        left: 163px;
+        content: " ";
+        display: block;
+        z-index: 10;
+        background-color: black;
+        outline: 7px solid white;
+        display: block;
+        margin: 0.5em 0.5em 0.5em -0.5em;
+        position: absolute;
+        top: 2px;
+        width: 12px;
+        height: 12px;
+      }
+    }
+  }
+}
