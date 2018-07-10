@@ -19,7 +19,8 @@
       padding-right: 10px; }
     .timeline .point .timeperiod {
       position: relative;
-      min-width: 150px; }
+      min-width: 150px;
+      padding-top: 3px; }
       .timeline .point .timeperiod:before {
         transform: rotate(45deg);
         left: 163px;

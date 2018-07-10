@@ -3,13 +3,12 @@
   position: relative;
   height: calc(3*29.68cm); }
 
-.resume-header {
-  display: flex; }
-  .resume-header #name {
-    margin: 0px; }
-  .resume-header #position {
-    margin: 0px;
-    color: grey; }
+.resume-header #name {
+  margin: 0px; }
+
+.resume-header #position {
+  margin: 0px;
+  color: grey; }
 
 .adnotation {
   position: absolute;

@@ -1,2 +1,13 @@
 #resume-footer {
   padding-top: 10px; }
+
+.summary-position {
+  flex-grow: 1; }
+
+.summary-experience {
+  align-self: center; }
+  .summary-experience h3 {
+    margin: 0px; }
+
+.summary-header.content {
+  margin-bottom: 10px; }

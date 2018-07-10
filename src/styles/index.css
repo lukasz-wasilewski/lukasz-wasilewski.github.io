@@ -9,6 +9,9 @@ body {
 * {
   box-sizing: border-box; }
 
+h2.title:not(:last-child) {
+  margin-bottom: 0px; }
+
 .scrollTop {
   display: flex;
   flex-direction: column;

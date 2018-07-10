@@ -9,21 +9,26 @@ export default class ResumeContainer extends Component {
   constructor(props) {
     super(props);
     this.person = PersonData;
+    this.myRef = React.createRef();
+    this.saveResume = this.saveResume.bind(this);
   }
 
-  saveResume() {
-    const element = document.getElementById('template');
-    var opt = {
+  componentDidMount() {
+    const opt = {
       margin: 0,
       filename: 'Lukasz_Wasilewski.pdf',
       image: { type: 'jpeg', quality: 0.98 },
       jsPDF: { unit: 'cm', format: 'a4', orientation: 'portrait' }
     };
-    html2pdf(element, opt);
-    /*html2pdf()
-      .from(element)
+    this.portfolioElement = html2pdf()
+      .from(this.myRef.current)
       .set(opt)
-      .outputPdf("dataurlnewwindow");*/
+      .toPdf();
+  }
+
+  saveResume() {
+    //this.portfolioElement.save();
+    this.portfolioElement.outputPdf('dataurlnewwindow');
   }
 
   render() {
@@ -34,7 +39,7 @@ export default class ResumeContainer extends Component {
           subtitle="Ultimate resume for explaining everything about my professional experience."
         />
         <div className="page container">
-          <div className="page-inner">
+          <div ref={this.myRef} className="page-inner">
             <ResumeComponent person={this.person} />
           </div>
         </div>

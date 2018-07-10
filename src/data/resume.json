@@ -4,9 +4,10 @@
       "first": "Łukasz",
       "last": "Wasilewski"
     },
+    "experience": "6 years of experience",
     "position": "Javascript Developer",
     "about":
-      "Full-stack javascript developer. Interested in product as whole solution, from frontend (Angular - 4 years of experience, React - 2 years of experience) and backend (NodeJS  - 4 years of experience) of web application to desktop app (Electron) and mobile native apps (React - native). Focused in creating amazing user experience (inspired by Don\u0027t Make Me Think by Steve Krug)."
+      "Full-stack javascript developer. Interested in product as whole solution, from frontend (<b>Angular - 4 years</b> of experience, <b>React - 2 years</b> of experience) and backend (<b>NodeJS  - 4 years</b> of experience) of web application to desktop app (<b>Electron</b>) and mobile native apps (<b>React - native</b>). Focused in creating amazing user experience (inspired by Don\u0027t Make Me Think by Steve Krug). Conducted technical interviews, code reviews and team lead of junior developers."
   },
   "contact": {
     "email": "wasilewskiluke+cv@gmail.com",
@@ -48,27 +49,15 @@
         {
           "role": "Fullstack Developer, Architect, Devops",
           "description":
-            "Application for managing doctor office with appointments calendar, access to clients historical visits, invoices.",
+            "Create Progressive Web Application(PWA) using Service Worker API and IndexedDB, frontend in React, Redux, Redux-Saga, backend created in NodeJs. Also created desktop application with Electron and mobile ios app in React-native. Server for scalability run on Docker. Created docker compose and ansible script for configure servers to use docker engine.",
           "skills": [
-            "AngularJs",
+            "React",
             "Redux",
             "NodeJs",
             "Electron",
             "MongoDB",
-            "Docker"
-          ]
-        },
-        {
-          "role": "Fullstack Developer, Architect, Devops",
-          "description":
-            "Application for clients of doctor office with integration to application 1, possibility scheduling of appointments, history of previously visits.",
-          "skills": [
-            "React",
-            "Redux",
-            "Redux-saga",
-            "NodeJs",
-            "MongoDB",
-            "Docker"
+            "Docker",
+            "React-native"
           ]
         }
       ]
@@ -82,8 +71,8 @@
       "projects": [
         {
           "role": "Frontend Developer",
-          "description": "Application for managing BTS.",
-          "skills": ["AngularJs", "React"]
+          "description": "Development of web application for managing telecommunication base station(BTS).",
+          "skills": [ "React", "AngularJs" ]
         },
         {
           "role": "Fullstack Developer",
@@ -93,7 +82,7 @@
         {
           "role": "Frontend Developer",
           "description": "Application for presenting banking risk data.",
-          "skills": ["AngularJs"]
+          "skills": ["AngularJs", "Typescript", "d3"]
         }
       ]
     },

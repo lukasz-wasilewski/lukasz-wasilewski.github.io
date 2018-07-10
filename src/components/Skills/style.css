@@ -1,2 +1,4 @@
-.skill-group-name {
-  min-height: 60px; }
+.resume-skills {
+  margin-bottom: -50px; }
+  .resume-skills .skill-group-name {
+    min-height: 60px; }

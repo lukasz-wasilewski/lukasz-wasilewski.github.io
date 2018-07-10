@@ -16,11 +16,7 @@ const ContactInfoComponent = (props) => (
       <i className="fa fa-map-marker" aria-hidden="true" />{" "}
       {props.city}
     </span>
-    <span id="website">
-      <a href={"https://"+props.website}>
-        <i className="fa fa-home" aria-hidden="true" /> {props.website}
-      </a>
-    </span>
+    
     <span id="github">
       <a href={"https://github.com/"+ props.github}>
         <i className="fab fa-github" aria-hidden="true" />{" "}
@@ -29,5 +25,9 @@ const ContactInfoComponent = (props) => (
     </span>
   </div>
 );
-
+/*<span id="website">
+      <a href={"https://"+props.website}>
+        <i className="fa fa-home" aria-hidden="true" /> {props.website}
+      </a>
+    </span>*/
 export default ContactInfoComponent;

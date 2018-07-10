@@ -23,7 +23,6 @@ export default ({ person }) => (
         title={"Experience"}
         timepoints={person.self_experience}
       />
-      <div className="html2pdf__page-break" />
       <ExperienceTimelineComponent
         timepoints={person.experience}
       />
@@ -33,7 +32,7 @@ export default ({ person }) => (
         timepoints={person.education}
       />
       <div className="resume-hobbies">
-        <h1 className="title">Hobbies:</h1>
+        <h2 className="title">Hobbies:</h2>
         <ul id="skill-list">
           {person.hobbies.map((hobby, index) => (
             <li className="skill" key={index}>

@@ -21,6 +21,10 @@ body {
   transform: translate3d($x, $y, 0);
 }
 
+h2.title:not(:last-child) {
+  margin-bottom: 0px;
+}
+
 .scrollTop {
   display: flex;
   flex-direction: column;

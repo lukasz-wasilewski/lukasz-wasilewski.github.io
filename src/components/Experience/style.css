@@ -6,3 +6,6 @@
     border-radius: 2px;
     border-left: 3px black solid;
     width: 100%; }
+
+.title:not(.is-spaced) + .subtitle {
+  margin: 0px; }
